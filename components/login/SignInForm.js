@@ -13,20 +13,16 @@ const SignInForm = () => {
         Start exploring camps from all around the world.
       </h2>
       <form className='flex flex-col md:w-[36rem]'>
-        <label className='flex flex-col text-[#726F6C] text-sm md:text-[16px] mb-4 '>
+        <label className='login_label'>
           Username
-          <input
-            type='text'
-            placeholder='johndoe_91'
-            className='w-full p-4 md:p-5 bg-[#f7f7f7] outline-0 mt-4'
-          />
+          <input type='text' placeholder='johndoe_91' className='login_input' />
         </label>
-        <label className='flex flex-col text-[#726F6C] text-sm md:text-[16px] mb-4'>
+        <label className='login_label'>
           Password
           <input
             type='password'
             placeholder='Enter your password'
-            className='w-full p-4 md:p-5 bg-[#f7f7f7] outline-0 mt-4'
+            className='login_input'
           />
         </label>
 

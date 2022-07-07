@@ -13,7 +13,7 @@ const Home = () => {
       <h2 className='text-3xl font-semibold mt-6 min-w-[200px] sm:text-[2.75rem] lg:text-5xl'>
         Explore the best camps on Earth.
       </h2>
-      <p className='text-md text-[#726F6C] lg:text-lg'>
+      <p className='home_text'>
         YelpCamp is a curated list of the best camping spots on Earth.
         Unfiltered and unbiased reviews.
       </p>
@@ -29,11 +29,9 @@ const Home = () => {
           <Button title='View Campgrounds' />
         </a>
       </Link>
-      <p className='text-md text-[#726F6C] lg:text-lg lg:pt-4'>
-        Partnered with:
-      </p>
+      <p className='home_text lg:pt-4'>Partnered with:</p>
       <div className='flex'>
-        <div className=''>
+        <div>
           <Image src='/images/assets/Airbnb.svg' width={100} height={50} />
         </div>
         <div>

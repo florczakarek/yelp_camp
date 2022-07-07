@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Card = () => {
   return (
     <section className='px-8'>
-      <div className='border-gray-300 rounded-md border-[1px] p-8 shadow-md'>
+      <div className='card'>
         <div className='relative h-56 w-full mb-4'>
           <Image
             src='/images/camps/Mount Ulap.jpg'

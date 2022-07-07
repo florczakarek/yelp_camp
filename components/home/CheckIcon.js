@@ -13,7 +13,7 @@ const CheckIcon = ({ text }) => {
           clip-rule='evenodd'
         />
       </svg>
-      <p className='text-md text-[#726F6C]'>{text}</p>
+      <p className='home_text'>{text}</p>
     </div>
   );
 };
