@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Logo from '../components/Logo';
 import Hero from '../components/Hero';
 
@@ -11,8 +10,9 @@ const Home: NextPage = () => {
         <title>Yelp Camp</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <Logo />
+      <div className='md:my-4 lg:hidden'>
+        <Logo />
+      </div>
       <Hero />
     </div>
   );

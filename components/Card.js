@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
 
 const Card = () => {
   return (
-    <section className='p-8'>
-      <div className='border-gray-300 rounded-md border-2 p-8'>
+    <section className='px-8'>
+      <div className='border-gray-300 rounded-md border-[1px] p-8 shadow-md'>
         <div className='relative h-56 w-full mb-4'>
           <Image
             src='/images/camps/Mount Ulap.jpg'
@@ -14,7 +13,7 @@ const Card = () => {
             objectFit='cover'
           />
         </div>
-        <div className='space-y-4'>
+        <div className='space-y-2'>
           <div className='flex items-center justify-between'>
             <h2 className='text-lg font-bold'>Mount Ulap</h2>
             <span className='font-normal text-sm'>$104.99/night</span>

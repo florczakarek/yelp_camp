@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
 
 const Logo = () => {
   return (
-    <div className='p-3 lg:px-24'>
-      <Image src='/images/Logo.svg' width={100} height={50} />
+    <div className='relative w-20 h-20 mx-4 md:w-24 md:h-12 lg:px-16'>
+      <Image src='/images/Logo.svg' layout='fill' />
     </div>
   );
 };

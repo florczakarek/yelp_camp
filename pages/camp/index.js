@@ -3,19 +3,29 @@ import Card from '../../components/Card';
 import Logo from '../../components/Logo';
 import Menu from '../../components/Menu';
 import Testimonials from '../../components/Testimonials';
+import Map from '../../components/Map';
+import Link from 'next/link';
 
 const CompgroungPage = () => {
   return (
     <Fragment>
-      <div className='bg-white'>
-        <div className=' flex items-center justify-between px-5'>
-          <Logo />
+      <div className='bg-white p-4'>
+        <div className=' flex items-center justify-between px-6 md:my-4'>
+          <Link href='/'>
+            <a>
+              <Logo />
+            </a>
+          </Link>
           <Menu />
         </div>
         <Card />
-        <div className='p-8'>
+        <div className='p-8 pb-0'>
           <Testimonials />
+          <Map />
         </div>
+        <footer className='px-6 md:my-4'>
+          <Logo />
+        </footer>
       </div>
     </Fragment>
   );

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CheckIcon = ({ text }) => {
   return (
     <div className='flex space-x-2 my-3 items-center lg:text-lg'>
