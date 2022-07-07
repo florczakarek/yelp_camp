@@ -1,9 +1,9 @@
 import { Fragment } from 'react';
-import Card from '../../components/Card';
+import Card from '../../components/camps/Card';
 import Logo from '../../components/Logo';
-import Menu from '../../components/Menu';
-import Testimonials from '../../components/Testimonials';
-import Map from '../../components/Map';
+import Menu from '../../components/camps/Menu';
+import Testimonials from '../../components/camps/Testimonials';
+import Map from '../../components/camps/Map';
 import Link from 'next/link';
 
 const CompgroungPage = () => {

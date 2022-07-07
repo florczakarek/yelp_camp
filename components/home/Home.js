@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from '../components/Button';
-import CheckIcon from '../components/CheckIcon';
-import Logo from './Logo';
+import Button from '../camps/Button';
+import CheckIcon from './CheckIcon';
+import Logo from '../Logo';
 
 const Home = () => {
   return (

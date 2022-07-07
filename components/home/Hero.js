@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Home from '../components/Home';
+import Home from './Home';
 
 const Hero = () => {
   return (

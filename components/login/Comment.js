@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Comment = () => {
   return (
-    <div className='p-6 md:p-10 bg-[#F9F5F1]'>
+    <div className='p-6 md:p-10 bg-[#F9F5F1] lg:px-24 lg:py-64 lg:min-w-[450px] lg:max-w-[700px] '>
       <p className='text-xl md:text-2xl font-bold leading-relaxed mb-4 quote'>
         "YelpCamp has honestly saved me hours of research time, and the camps on
         here are definitely well picked and added."
